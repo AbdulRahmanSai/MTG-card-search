@@ -1,0 +1,34 @@
+
+/* Form */
+#formHeader {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  #formHeader input:first-child,
+  #formFooter input:first-child {
+    width: 98%;
+  }
+  #formHeader input,
+  #formHeader select,
+  #formFooter input {
+    margin: 1%;
+    width: 48%;
+  }
+  #img {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+  #img div {
+    text-align: left;
+  }
+  #img div img {
+    width: 50%;
+  }
+  #btns {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }

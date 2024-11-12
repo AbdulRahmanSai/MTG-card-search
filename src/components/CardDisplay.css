@@ -1,0 +1,28 @@
+#results {
+    align-items:first baseline;
+    display: flex;
+    gap: 32px;
+    width: 100%;
+}
+#result div {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+#generatedCard {
+    width: 50%;
+}
+.cardheader, .cardfooter {
+    background-color: gray;
+    border-radius: 8px;
+    color: #fff;
+    padding: 4px 8px;
+}
+.cardheader {
+    display: flex;
+    justify-content: space-between;
+}
+.cardfooter {
+    display: block;
+    text-align: left;
+}
